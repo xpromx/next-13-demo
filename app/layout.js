@@ -1,10 +1,15 @@
 import { Header } from "../components/Header";
 
-export default function BlogLayout({ children }) {
+export default function MainLayout({ children }) {
   return (
-    <>
-      <Header />
-      <section>{children}</section>
-    </>
+    <html>
+      <head>
+        <title>My App</title>
+      </head>
+      <body>
+        <Header />
+        <main>{children}</main>
+      </body>
+    </html>
   );
 }
