@@ -1,0 +1,15 @@
+.root {
+  border-bottom: 1px #ccc solid;
+  margin-bottom: 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-right: 10px;
+}
